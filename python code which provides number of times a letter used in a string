@@ -1,0 +1,7 @@
+a=input()
+for i in a:
+    x=0
+    for j in a:
+         if i==j:
+                x=x+1
+    print(i,"comes",x,"times")
